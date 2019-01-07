@@ -1,14 +1,13 @@
 # Raspberry-Pi-Python-3-TM1637-Clock
 
 ## Requirements
-
 Software:
-RPi.GPIO
-requests - in case you use an external api to feed the outside temp (eg https://openweathermap.org/) in file clock_dht11.py
+* RPi.GPIO
+* requests - in case you use an external api to feed the outside temp (eg https://openweathermap.org/) in file clock_dht11.py
 
 Hardware:
-Raspberry PI 3 B (tested) - may work on other raspberry versions.
-TM1637 7 Segment display with clock dots.
+* Raspberry PI 3 B (tested) - may work on other raspberry versions.
+* TM1637 7 Segment display with clock dots.
 
 ## Connections
 
