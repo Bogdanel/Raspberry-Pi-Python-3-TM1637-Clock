@@ -103,7 +103,7 @@ blank   | 0b00000000 | 0x00 | 0   | 36
 
 
 ## Sources
-* [tm1637 I started from](https://github.com/mcauser/micropython-tm1637)
+* [tm1637 I started from](https://github.com/timwaizenegger/raspberrypi-examples/tree/master/actor-led-7segment-4numbers)
 * [Another good version of TM1637 library](https://github.com/Michael-Kirkpatrick/tm1637-pi-python)
 * [dht11](https://github.com/szazo/DHT11_Python)
 
