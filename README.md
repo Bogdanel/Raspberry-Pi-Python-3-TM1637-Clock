@@ -1,5 +1,7 @@
 # Raspberry-Pi-Python-3-TM1637-Clock
 
+This is a merge between a few TM1637 python libraries I found on github.
+
 ## Requirements
 Software:
 * RPi.GPIO
@@ -19,6 +21,22 @@ GPIO18        | DIO
 G             | GND
 
 I used these pins because GND is in the middle :)
+
+### Setup
+
+Start by simply downloading/copying the library and the test file into the same directory on your Pi. 
+Once done, be sure to check line 17 in the clock.py file:
+```
+self.display = tm1637.TM1637(CLK=23, DIO=18, brightness=1.0)
+```
+Set the value of CLK and DIO to whichever Pi GPIO pins you have used. If you copy the hardware setup below, this will work as is.
+
+### Running
+
+Navigate into the directory where you have stored the files you just downloaded. You can then run the program with Python3. For those unfamiliar with Linux, the following command will do the trick: 
+```
+sudo python3 clock.py
+```
 
 # Seven Segment Font
 
@@ -81,6 +99,13 @@ Z       | 0b01011011 | 0x5B | 91  | 35
 blank   | 0b00000000 | 0x00 | 0   | 36
 \-      | 0b01000000 | 0x40 | 64  | 37
 \*      | 0b01100011 | 0x63 | 99  | 38
+
+
+
+## Sources
+* [tm1637 I started from](https://github.com/mcauser/micropython-tm1637)
+* [Another good version of TM1637 library](https://github.com/Michael-Kirkpatrick/tm1637-pi-python)
+* [dht11](https://github.com/szazo/DHT11_Python)
 
 ## License
 
