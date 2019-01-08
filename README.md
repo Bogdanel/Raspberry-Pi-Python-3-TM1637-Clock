@@ -56,9 +56,9 @@ One byte (7 lower bits) for each segment. The 8th bit (MSB) is for the colon and
 0b01101101 = 0x6D = 109 = show "5"
 ```
 
-** HexKey Index is the index of character in tm1637.py Hexkeys list.
+** HexDigit Index is the index of character in tm1637.py HexDigits list.
 
-Display | Bin        | Hex  | Dec | HexKey Index
+Display | Bin        | Hex  | Dec | HexDigit Index
 ------- | ---------- | ---- | --- | ------------
 0       | 0b00111111 | 0x3F | 63  | 0
 1       | 0b00000110 | 0x06 | 6   | 1
